@@ -1,0 +1,113 @@
+body{
+    font-family: "Cascadia Code";
+}
+
+
+.left{
+    color: white;
+    /* border: 1px solid red; */
+    display: inline-block;
+}
+.mid{
+    color: white;
+    /* border: 1px solid yellow; */
+    display: inline-block;
+    position: relative;
+    width: 600px;
+    left: 250px;
+    bottom: 50px;
+}
+.right{
+    color: white;
+    /* border: 1px solid green; */
+    float: right;    
+}
+
+.left img{
+    width: 100px;
+    position: relative;
+    left: 8px;
+}
+
+#name{
+    position: relative;
+    left: 19px;
+    bottom: 25px;
+    display: block;
+}
+
+.mid li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.mid li a:hover{
+    text-decoration: underline red;
+    border-radius: 30px;
+}
+
+.mid li {
+    display: inline-block;
+}
+
+
+.btn{
+    display: block;
+    font-size: 20px;
+    background-color: black;
+    border: 2px solid orange;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn:hover{
+    background-color: orange;
+}
+
+#email{
+    position: relative;
+    left: 9px
+}
+
+.container{
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 370px;
+    margin-left: 390px;
+    display: block;
+}
+
+.form-header{
+    color: white;
+    justify-items: center;
+    display: block;
+}
+
+.container form{
+    justify-items: center;
+    margin-top: 30px;
+    /* width: 300px; */
+}
+
+.form-group{
+    color: white;
+    margin: 20px;
+}
+
+
+.form-group input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-family: "Cascadia Code";
+    background-color: black;
+    color: green;
+    border-radius: 20px;
+    border-style: dotted;
+}
+
