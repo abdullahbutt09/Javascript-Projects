@@ -1,0 +1,40 @@
+body {
+    background-color: grey;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 2rem;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+#start {
+    color: green;
+}
+
+#stop {
+    color: red;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#display {
+    font-size: 2rem;
+    font-weight: bold;
+    color: yellow;
+}

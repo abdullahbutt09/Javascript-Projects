@@ -1,0 +1,58 @@
+/* General table styling */
+table {
+    width: 50%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: #2e2e2e;
+    color: white;
+    font-size: 1.2rem;
+    display: none;  /* Hide table initially */
+}
+
+/* Styling for table headers and cells */
+th, td {
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styling for table headers */
+th {
+    background: #444;
+    font-weight: bold;
+}
+
+/* Add some hover effect */
+td {
+    background: #333;
+}
+
+tr:hover {
+    background: #555;
+}
+
+/* Styling for the main container */
+.project {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Style for the default message */
+.key {
+    font-size: 1.5rem;
+    background: #444;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* Show table when key is pressed */
+.show-table {
+    display: table;
+}

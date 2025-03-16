@@ -1,0 +1,55 @@
+body{
+    background-color: grey;
+}
+
+.container {
+    width: 575px;
+    height: 825px;
+  
+    padding-left: 25rem;
+    /* align-items: center; */
+  }
+  #height,
+  #weight {
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+  }
+  
+  #weight-guide {
+    margin-left: 75px;
+    margin-top: 25px;
+  }
+  
+  #results {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 2rem;
+    color: rgb(241, 241, 241);
+  }
+
+  #check{
+    font-size: 35px;
+    margin-top: 20px;
+    color:red;
+  }
+  
+  button {
+    width: 150px;
+    height: 35px;
+    margin-left: 100px;
+    margin-top: 25px;
+    background-color: black;
+    border-radius: 8px;
+    color: orange;
+    text-decoration: none;
+    border: 2px solid yellowgreen;
+    
+    font-size: 25px;
+  }
+  
+  h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+    
+  }
